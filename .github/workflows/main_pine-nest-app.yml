@@ -26,7 +26,9 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
+          npm install --save-dev jest
           npm run build --if-present
+          npm run test --if-present
           
 
       - name: Zip artifact for deployment
