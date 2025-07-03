@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pine Nest Education Consult offers qualitative Montessori training for educators, caregivers, and practitioners. Explore our services, events, and blog.">
+    <title>Pine Nest Education Consult</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body class="font-sans bg-white text-gray-800" id="body">
+    <!-- Navbar -->
+    <nav class="navbar fixed top-0 w-full bg-white bg-opacity-95 shadow-md z-50 border-b border-gray-200 transition-all duration-300">
+        <div class="nav-container max-w-6xl mx-auto px-4 flex justify-between items-center h-20">
+            <a href="#" class="nav-logo flex items-center text-xl font-bold text-navy-700">
+                <img src="pine-nest-logo.png" alt="Pine Nest Logo" class="h-10 mr-2">
+                Pine Nest
+            </a>
+            <div class="flex items-center space-x-6">
+                <input type="text" id="search-bar" placeholder="Search..." class="p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-500 hidden md:block bg-gray-100 text-gray-800">
+                <ul class="nav-menu flex space-x-6">
+                    <li><a href="#home" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">Home</a></li>
+                    <li><a href="#about" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">About Us</a></li>
+                    <li><a href="#services" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">Services</a></li>
+                    <li><a href="#events" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">Events</a></li>
+                    <li><a href="#gallery" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">Gallery</a></li>
+                    <li><a href="#blog" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">Blog</a></li>
+                    <li><a href="#contact" class="nav-link text-gray-700 hover:text-navy-700 transition duration-300">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger hidden">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="hero min-h-screen flex items-center bg-white text-gray-800 py-20 px-4">
+        <div class="hero-content max-w-2xl">
+            <h1 class="text-5xl font-bold mb-6 leading-tight">Welcome to Pine Nest Education Consult</h1>
+            <p class="text-xl mb-8">...equip and empower lives</p>
+            <div class="hero-buttons flex gap-4 flex-wrap">
+                <a href="#services" class="btn btn-primary bg-navy-600 text-white hover:bg-navy-500 transition duration-300 px-6 py-3 rounded-full">Our Services</a>
+                <a href="#contact" class="btn btn-secondary border-2 border-navy-600 text-navy-700 hover:bg-navy-600 hover:text-white transition duration-300 px-6 py-3 rounded-full">Get Started</a>
+            </div>
+        </div>
+        <div class="hero-image hidden md:flex justify-center">
+            <div class="tech-illustration w-72 h-72 bg-navy-100 bg-opacity-50 border-2 border-navy-400 rounded-full flex items-center justify-center animate-pulse">
+                <i class="fas fa-chalkboard-teacher text-navy-600 text-6xl opacity-90"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about py-24 bg-gray-50">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="section-header text-center mb-12">
+                <h2 class="text-4xl font-bold text-navy-800">About Us</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto">We are committed to equipping and empowering educators, school leaders, caregivers and education practitioners in Montessori Education. We offer our students qualitative training that involves comprehensive knowledge of the Montessori pedagogy, which conforms to the international Montessori teacher education standard that you can obtain anywhere in the world. 
+</p>
+              
+            </div>
+            <div class="about-content grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="about-text">
+                    <p class="text-gray-600 leading-relaxed mb-6">Driven by a common passion to help children harness their skills and maximise their potential, we are dedicated to providing qualitative training to all those who wish to work in early childhood settings, applying the Montessori method of education.
+
+Our top priority is to ensure that the knowledge, training, information and materials relating to the Montessori approach to education are accessible to everyone. 
+
+Our centre is conducive to learning with developmentally appropriate materials to give students hands-on experience in Montessori philosophy and practice. 
+</p>
+                    <div class="mission-vision">
+                        <h3 class="text-2xl font-semibold text-navy-700 mb-4">Our Mission</h3>
+                        <p class="text-gray-600 mb-6">To offer and provide qualitative Montessori training to educators and other practitioners to equip and empower educational practitioners and caregivers with the knowledge, skills and resources necessary to meet educational and development requirements of children globally. </p>
+                        <h3 class="text-2xl font-semibold text-navy-700 mb-4">Our Vision</h3>
+                        <p class="text-gray-600">To be a premium and preferred service provider of Montessori Teachers’ Training, and to rank among the best in the industry. </p>
+                    </div>
+                </div>
+                <div class="about-image flex justify-center">
+                    <div class="team-illustration w-64 h-64 bg-navy-100 rounded-xl flex items-center justify-center text-navy-700 shadow-md">
+                        <i class="fas fa-users text-5xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services py-24 bg-white">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="section-header text-center mb-12">
+                <h2 class="text-4xl font-bold text-navy-800">Our Services</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto">Tailored training for educators and caregivers</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="/services/infant-toddler-foundation" class="service-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 block">
+                    <h3 class="text-2xl font-bold text-navy-700">Infant and Toddler Foundation Course</h3>
+                    <p class="text-gray-600">A foundational course designed to help parents, caregivers, and educators...</p>
+                </a>
+                <a href="/services/infant-toddler-diploma" class="service-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 block">
+                    <h3 class="text-2xl font-bold text-navy-700">Infant and Toddler Diploma Course</h3>
+                    <p class="text-gray-600">For adults working with children from birth to 3 years of age...</p>
+                </a>
+                <a href="/services/early-childhood-foundation" class="service-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 block">
+                    <h3 class="text-2xl font-bold text-navy-700">Early Childhood Montessori Foundation Certificate Course</h3>
+                    <p class="text-gray-600">A short introductory course designed to give an overview...</p>
+                </a>
+                <a href="/services/early-childhood-diploma" class="service-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 block">
+                    <h3 class="text-2xl font-bold text-navy-700">Early Childhood Montessori Diploma Course</h3>
+                    <p class="text-gray-600">Equips individuals with thorough knowledge of the Montessori Method...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="py-24 bg-gray-50">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="section-header text-center mb-12">
+                <h2 class="text-4xl font-bold text-navy-800">Upcoming Events</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto">Join us for professional development and networking</p>
+            </div>
+            <div id="event-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Events will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-24 bg-white">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="section-header text-center mb-12">
+                <h2 class="text-4xl font-bold text-navy-800">Gallery</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto">Moments from our training sessions</p>
+            </div>
+            <div class="relative">
+                <img src="1.png" alt="Gallery Image 1" class="gallery-slide active w-full h-400 object-cover rounded-lg">
+                <img src="2.jpg" alt="Gallery Image 2" class="gallery-slide w-full h-400 object-cover rounded-lg">
+                <img src="3.jpg" alt="Gallery Image 3" class="gallery-slide w-full h-400 object-cover rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-24 bg-gray-50">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="section-header text-center mb-12">
+                <h2 class="text-4xl font-bold text-navy-800">Blog</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto">Insights on Montessori education</p>
+            </div>
+            <div id="blog-posts" class="space-y-6">
+                <p class="text-gray-600 text-center">No posts yet. Check back after admin updates!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact py-24 bg-white">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="section-header text-center mb-12">
+                <h2 class="text-4xl font-bold text-navy-800">Contact Us</h2>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto">Ready to enhance your educational journey?</p>
+            </div>
+            <form id="contact-form" class="max-w-md mx-auto bg-gray-50 p-6 rounded-xl shadow-md">
+                <div class="mb-4">
+                    <label class="block text-gray-600">Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-navy-500 text-gray-800">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-600">Email</label>
+                    <input type="email" id="contact-email" placeholder="Your Email" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-navy-500 text-gray-800">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-600">Message</label>
+                    <textarea id="contact-message" placeholder="Your Message" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-navy-500 text-gray-800" rows="4"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-navy-600 text-white hover:bg-navy-500 transition duration-300 px-6 py-3 rounded-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+            <p class="text-gray-600 text-center mt-4">Or email us at <a href="mailto:info@pinene.st" class="text-navy-600 hover:underline">info@pinene.st</a> or call <a href="tel:+123-456-7890" class="text-navy-600 hover:underline">+123-456-7890</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-navy-800 text-white py-12">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="footer-content grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div class="footer-section">
+                    <div class="footer-logo flex items-center text-lg font-bold text-white mb-4">
+                        <img src="pine-nest-logo.png" alt="Pine Nest Logo" class="h-10 mr-2">
+                        Pine Nest
+                    </div>
+                    <p class="text-gray-300">Empowering educators with innovative Montessori solutions. Your growth is our mission.</p>
+                    <div class="social-links flex gap-4 mt-4">
+                        <a href="https://facebook.com" class="w-10 h-10 bg-navy-700 rounded-full flex items-center justify-center hover:bg-white hover:text-navy-700 transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" class="w-10 h-10 bg-navy-700 rounded-full flex items-center justify-center hover:bg-white hover:text-navy-700 transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" class="w-10 h-10 bg-navy-700 rounded-full flex items-center justify-center hover:bg-white hover:text-navy-700 transition duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" class="w-10 h-10 bg-navy-700 rounded-full flex items-center justify-center hover:bg-white hover:text-navy-700 transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="text-lg text-white mb-4">Quick Links</h3>
+                    <ul>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="#events" class="text-gray-300 hover:text-white transition duration-300">Events</a></li>
+                        <li><a href="#gallery" class="text-gray-300 hover:text-white transition duration-300">Gallery</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="text-lg text-white mb-4">Contact Info</h3>
+                    <div class="contact-info-footer">
+                        <p class="flex items-center gap-2 text-gray-300"><i class="fas fa-map-marker-alt"></i> 123 Education Lane, Lagos, Nigeria</p>
+                        <p class="flex items-center gap-2 text-gray-300"><i class="fas fa-phone"></i> +234 812 345 6789</p>
+                        <p class="flex items-center gap-2 text-gray-300"><i class="fas fa-envelope"></i> <a href="mailto:info@pinene.st" class="text-white hover:underline">info@pinene.st</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center text-gray-400 mt-6">
+                © 2025 Pine Nest Education Consult. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script>
+        // Navbar Scroll Effect
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+                $('.navbar').addClass('scrolled');
+            } else {
+                $('.navbar').removeClass('scrolled');
+            }
+        });
+
+        // Hamburger Menu Toggle
+        $('.hamburger').click(function() {
+            $(this).toggleClass('active');
+            $('.nav-menu').toggleClass('active');
+        });
+
+        // Gallery Slideshow with 30-second timeout
+        let slideIndex = 0;
+        const slides = $('.gallery-slide');
+        function showSlides() {
+            slides.removeClass('active');
+            slideIndex++;
+            if (slideIndex > slides.length) slideIndex = 1;
+            slides.eq(slideIndex - 1).addClass('active');
+            setTimeout(showSlides, 30000); // 30 seconds
+        }
+        showSlides();
+
+        // Contact Form Submission
+        $('#contact-form').submit(function(e) {
+            e.preventDefault();
+            const name = $('#contact-name').val();
+            const email = $('#contact-email').val();
+            const message = $('#contact-message').val();
+            if (name && email && message) {
+                $.post('/api/contact', { name, email, message }, function(response) {
+                    alert('Message sent successfully!');
+                    $('#contact-form')[0].reset();
+                }).fail(function() {
+                    alert('Failed to send message. Please try again.');
+                });
+            }
+        });
+
+        // Fetch and Display Events
+        $.get('/api/events', function(events) {
+            const eventList = $('#event-list');
+            if (events.length > 0) {
+                eventList.empty();
+                events.forEach(event => {
+                    const eventCard = $('<div>').addClass('bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300');
+                    eventCard.html(`
+                        <h3 class="text-xl font-bold text-navy-700 mb-2">${event.title}</h3>
+                        <p class="text-gray-600 mb-2">${event.date}</p>
+                        <p class="text-gray-600">${event.description.substring(0, 100)}...</p>
+                    `);
+                    eventList.append(eventCard);
+                });
+            } else {
+                eventList.html('<p class="text-gray-600 text-center">No upcoming events. Check back soon!</p>');
+            }
+        });
+
+        // Fetch and Display Blog Posts
+        $.get('/api/blog', function(posts) {
+            const blogPosts = $('#blog-posts');
+            if (posts.length > 0) {
+                blogPosts.empty();
+                posts.forEach(post => {
+                    const postElement = $('<a>').attr('href', `/blog?date=${post.date}`).addClass('block bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300');
+                    postElement.html(`
+                        <h3 class="text-lg font-bold text-navy-700">${post.title}</h3>
+                        <p class="text-gray-600">${post.content.substring(0, 100)}...</p>
+                    `);
+                    blogPosts.append(postElement);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
